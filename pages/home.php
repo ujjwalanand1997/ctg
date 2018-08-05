@@ -17,6 +17,26 @@
     <link rel="stylesheet" type="text/css" href="../css/animate.css">
 </head>
 <body>
+	<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : 1212292048910797,
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.12'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div class="fb-customerchat" page_id="1307659746002856"></div>
 	<div class="row">
 <!--##################################################################################################################################-->
 		<div class="col-sm-2 tags">
